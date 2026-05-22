@@ -312,23 +312,23 @@ const Users = createLucideIcon("users", __iconNode);
 const SERVICES = [{
   icon: Users,
   label: "Community Built-up",
-  description: "Community building is rooted in the eternal nature of the soul, encouraging compassion, dharma, and shared responsibility across generations."
+  description: "Community building is rooted in the eternal nature of the soul, encouraging compassion, dharma and shared responsibility across generations."
 }, {
   icon: House,
   label: "Old Age Home",
-  description: "A 500-bedded fully air-conditioned facility with single, double, and triple occupancy, plus dining, activity, indoor games, and 24x7 security."
+  description: "A 500-bedded fully air-conditioned facility with single, double and triple occupancy, plus dining, activity, indoor games and 24x7 security."
 }, {
   icon: Pill,
   label: "24x7 Retail Medicine Store",
-  description: "A round-the-clock medicine store with qualified pharmacists, prescription and OTC medicines, supplements, and first-aid essentials."
+  description: "A round-the-clock medicine store with qualified pharmacists, prescription and OTC medicines, supplements and first-aid essentials."
 }, {
   icon: Stethoscope,
   label: "24x7 Advanced Medical Clinic with Emergency",
-  description: "A state-of-the-art clinic operating 24x7 with diagnostics, emergency units, and trained medical staff for routine and urgent care."
+  description: "A state-of-the-art clinic operating 24x7 with diagnostics, emergency units and trained medical staff for routine and urgent care."
 }, {
   icon: Activity,
   label: "Day Care OPD Facility",
-  description: "Comprehensive OPD care without overnight admission, offering expert consultation, treatment, and follow-up across specialties."
+  description: "Comprehensive OPD care without overnight admission, offering expert consultation, treatment and follow-up across specialties."
 }, {
   icon: Ambulance,
   label: "24x7 Advanced Cardiac/non Cardiac AC Ambulance",
@@ -340,7 +340,7 @@ const SERVICES = [{
 }, {
   icon: Flame,
   label: "Ceremony Hall",
-  description: "Twin halls for Shraddha, Upanayan, marriage, and devotional gatherings with serene ambiance and modern amenities."
+  description: "Twin halls for Shraddha, Upanayan, marriage and devotional gatherings with serene ambiance and modern amenities."
 }, {
   icon: GraduationCap,
   label: "Vocational Training",
@@ -348,15 +348,15 @@ const SERVICES = [{
 }, {
   icon: Bus,
   label: "AC Bus & Car Service",
-  description: "Comfortable and reliable transport for daily travel, special events, pilgrimages, and group movement."
+  description: "Comfortable and reliable transport for daily travel, special events, pilgrimages and group movement."
 }, {
   icon: Store,
   label: "Day Time Retail Shop",
-  description: "A daytime outlet for Ashram-made products, spiritual items, and essentials that support self-reliance initiatives."
+  description: "A daytime outlet for Ashram-made products, spiritual items and essentials that support self-reliance initiatives."
 }, {
   icon: Landmark,
   label: "Main Temple of Maa Dakshina Kali with Five Co-Temples",
-  description: "The spiritual core of the Ashram with the main Maa Dakshina Kali temple and shrines of Shiva, Vishnu, Hanuman, Ganesha, and Lakshmi."
+  description: "The spiritual core of the Ashram with the main Maa Dakshina Kali temple and shrines of Shiva, Vishnu, Hanuman, Ganesha and Lakshmi."
 }, {
   icon: Sprout,
   label: "Promoting Agriculture & Fisheries",
@@ -364,40 +364,40 @@ const SERVICES = [{
 }, {
   icon: Sparkles,
   label: "Light & Sound Presenting Vedic Reincarnation",
-  description: "An immersive presentation of karma, dharma, birth, death, and rebirth through narration, light, and sound."
+  description: "An immersive presentation of karma, dharma, birth, death and rebirth through narration, light and sound."
 }, {
   icon: Trees,
   label: "Large Landscape",
-  description: "A vast, serene landscape with gardens, sacred trees, and water features designed for peace and spiritual calm."
+  description: "A vast, serene landscape with gardens, sacred trees and water features designed for peace and spiritual calm."
 }, {
   icon: Lightbulb,
   label: "Adequate Security with Landscape Lighting",
-  description: "CCTV, trained security personnel, controlled access, and ambient lighting for safe and well-illuminated movement."
+  description: "CCTV, trained security personnel, controlled access and ambient lighting for safe and well-illuminated movement."
 }, {
   icon: ShieldAlert,
   label: "24x7 Police Outpost for Security & Safety",
-  description: "A dedicated police outpost in coordination with local law enforcement for discipline, safety, and quick assistance."
+  description: "A dedicated police outpost in coordination with local law enforcement for discipline, safety and quick assistance."
 }, {
   icon: Cog,
   label: "Goushala",
-  description: "A dedicated cow shelter with Jersey cows, veterinary care, and support for ethical dairy and spiritual stewardship."
+  description: "A dedicated cow shelter with Jersey cows, veterinary care and support for ethical dairy and spiritual stewardship."
 }, {
   icon: BookOpen,
   label: "Library & Activity Room for Residents",
-  description: "Library and activity spaces for reading, learning, workshops, indoor games, and balanced personal growth."
+  description: "Library and activity spaces for reading, learning, workshops, indoor games and balanced personal growth."
 }];
 const FAQS = [{
   q: "Who manages Dev Dham Anandashram?",
   a: "The Ashram is proposed and managed by Rastriya Sanatan Sayang Sevak Sangha, a community devoted to preserving and promoting Sanatan Dharma."
 }, {
   q: "Which deities are worshipped at the main temple?",
-  a: "The main temple is dedicated to Maa Dakshina Kali, with five co-temples for Lord Shiva, Lord Vishnu (Balaji), Lord Bajrangbali, Lord Ganesha, and Maa Lakshmi."
+  a: "The main temple is dedicated to Maa Dakshina Kali, with five co-temples for Lord Shiva, Lord Vishnu (Balaji), Lord Bajrangbali, Lord Ganesha and Maa Lakshmi."
 }, {
   q: "Can devotees stay overnight at the Ashram?",
   a: "Yes. Accommodation includes modern air-conditioned rooms in different occupancy categories, based on eligibility and availability."
 }, {
   q: "What medical facilities are offered?",
-  a: "The Ashram provides a 24x7 medical clinic with emergency support, day-care OPD, medicine store, ambulance, and dead body carrier services."
+  a: "The Ashram provides a 24x7 medical clinic with emergency support, day-care OPD, medicine store, ambulance and dead body carrier services."
 }, {
   q: "How can I support the Ashram?",
   a: "By becoming a member or by offering a one-time donation through the Donate & Membership page."

@@ -17323,7 +17323,7 @@ async function handleRedirectResponse(response, request, getRouter) {
     "params",
     "search",
     "hash"
-  ].some((d) => typeof opts[d] === "function")) throw new Error(`Server side redirects must use static search, params, and hash values and do not support functional values. Received functional values for: ${Object.keys(opts).filter((d) => typeof opts[d] === "function").map((d) => `"${d}"`).join(", ")}`);
+  ].some((d) => typeof opts[d] === "function")) throw new Error(`Server side redirects must use static search, params and hash values and do not support functional values. Received functional values for: ${Object.keys(opts).filter((d) => typeof opts[d] === "function").map((d) => `"${d}"`).join(", ")}`);
   const redirect2 = (await getRouter()).resolveRedirect(response);
   if (request.headers.get("x-tsr-serverFn") === "true") return Response.json({
     ...response.options,

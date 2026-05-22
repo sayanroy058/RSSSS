@@ -7,8 +7,8 @@ import shikhara from "@/assets/temple-shikhara.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Us — Dev Dham Anandashram" },
-      { name: "description", content: "Our community is built on Sanatan Dharma, soul, donation and the eternal cycle of life — guided by Rastriya Sanatan Sayang Sevak Sangha." },
+      { title: "About Us Dev Dham Anandashram" },
+      { name: "description", content: "Our community is built on Sanatan Dharma, soul, donation and the eternal cycle of life guided by Rastriya Sanatan Sayang Sevak Sangha." },
     ],
   }),
   component: About,
@@ -24,7 +24,7 @@ function About() {
           <p className="deva text-2xl text-[var(--vermilion)]">॥ धर्मो रक्षति रक्षितः ॥</p>
           <h1 className="mt-4 font-display text-5xl text-[var(--vermilion)] md:text-6xl">About the Ashram</h1>
           <p className="mt-6 text-xl italic leading-relaxed">
-            A spiritual family, an eternal vow — to preserve, practice and pass on Sanatan Dharma in modern life.
+            A spiritual family, an eternal vow to preserve, practice and pass on Sanatan Dharma in modern life.
           </p>
         </div>
       </section>
@@ -38,20 +38,20 @@ function About() {
           Dev Dham Anandashram is a spiritual retreat grounded in the principles of Sanatan Dharma, proposed by
           <em> Rastriya Sanatan Sayang Sevak Sangha </em> to demonstrate the principle of the eternal way of life.
           Drawing from the timeless ashrama system, the Ashram provides a setting away from worldly distractions for
-          residents and visitors to focus on spiritual growth through meditation, yoga, chanting and scriptural study —
+          residents and visitors to focus on spiritual growth through meditation, yoga, chanting and scriptural study
           the ultimate goal being moksha.
         </p>
         <p className="mt-4 text-lg leading-relaxed">
-          A supportive community fosters a sense of spiritual family — seekers from diverse backgrounds living together,
+          A supportive community fosters a sense of spiritual family seekers from diverse backgrounds living together,
           united by their spiritual purpose with nature. The Ashram extends its service to the larger community through
-          educational programs, social and medical services, and religious guidance — reflecting the avatara concept of
+          educational programs, social and medical services and religious guidance reflecting the avatara concept of
           the Bhagavad Gita.
         </p>
         <p className="mt-4 text-lg leading-relaxed">
           The complex hosts 500+ fully air-conditioned modern rooms for devotees, a 25-bed clinic with OPD, modern medical
-          stores, advanced cardiac and non-cardiac ambulances, and dead-body carrier services at no cost. At its heart
+          stores, advanced cardiac and non-cardiac ambulances and dead-body carrier services at no cost. At its heart
           stands a 10,000 sft. fully air-conditioned main <strong>Maa Dakshina Kali</strong> temple, surrounded by five
-          co-temples and a grand prayer & meditation hall — an ambience that beckons every soul toward moksha.
+          co-temples and a grand prayer & meditation hall an ambience that beckons every soul toward moksha.
         </p>
       </section>
 
@@ -60,7 +60,7 @@ function About() {
           <div className="om-divider mb-8"><span className="deva text-2xl">॥ समुदाय ॥</span></div>
           <h2 className="text-center font-display text-4xl text-[var(--vermilion)]">Community Built-Up</h2>
           <p className="mx-auto mt-4 max-w-3xl text-center text-lg leading-relaxed">
-            The Sangha believes that life is a sacred journey of the soul — eternal, continuous, guided by divine law.
+            The Sangha believes that life is a sacred journey of the soul eternal, continuous, guided by divine law.
             The Atman is immortal, passing through countless births in its quest for liberation. Our community-building
             is rooted in this eternal truth.
           </p>
@@ -98,11 +98,11 @@ function About() {
         <h2 className="font-display text-4xl text-[var(--vermilion)]">Where We Reside</h2>
         <div className="mt-8 grid gap-10 md:grid-cols-2">
           <div className="text-lg leading-relaxed">
-            <p><strong>Ashram Location:</strong> Gazol Doba, Jalpaiguri, West Bengal — near Bhorer Alo Dam Project and on the way to Bhamri Devi Temple.</p>
+            <p><strong>Ashram Location:</strong> Gazol Doba, Jalpaiguri, West Bengal near Bhorer Alo Dam Project and on the way to Bhamri Devi Temple.</p>
             <ul className="mt-4 space-y-2">
-              <li>🚉 Nearest Railway Station — NGP</li>
-              <li>✈️ Airport — Bagdogra</li>
-              <li>🚏 Nearest Bus Stop — NoukaHaat, Siliguri</li>
+              <li>🚉 Nearest Railway Station NGP</li>
+              <li>✈️ Airport Bagdogra</li>
+              <li>🚏 Nearest Bus Stop NoukaHaat, Siliguri</li>
             </ul>
             <a href="https://www.google.com/maps/place/Dev+Dham+Anandashram/@26.7113061,88.5916827,17z" target="_blank" rel="noreferrer" className="btn-vintage mt-6 inline-block rounded-sm px-6 py-2.5 text-xs">Open in Google Maps</a>
           </div>

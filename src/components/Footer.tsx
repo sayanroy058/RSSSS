@@ -14,7 +14,7 @@ export function Footer() {
             </div>
           </div>
           <p className="mt-4 text-sm leading-relaxed text-[var(--muted-foreground)]">
-            A sanctuary of Sanatan Dharma — devotion, donation and the eternal way of life, nurtured by Rastriya Sanatan Sayang Sevak Sangha.
+            A sanctuary of Sanatan Dharma devotion, donation and the eternal way of life, nurtured by Rastriya Sanatan Sayang Sevak Sangha.
           </p>
         </div>
         <div>
@@ -41,7 +41,7 @@ export function Footer() {
             Gazol Doba, Mouza – Jangal Mohal,<br/>
             Dodhiya, P.O. Milan Pally,<br/>
             P.S. Bharer Alo, Dist. Jalpaiguri,<br/>
-            West Bengal — 735133
+            West Bengal 735133
           </p>
           <a
             href="https://www.google.com/maps/place/Dev+Dham+Anandashram/@26.7113061,88.5916827,17z"
@@ -53,7 +53,7 @@ export function Footer() {
       <div className="pattern-strip" aria-hidden />
       <div className="bg-[oklch(0.45_0.18_30)] py-4 text-center text-xs uppercase tracking-[0.3em] text-[var(--parchment)]">
         <span className="deva mr-3 text-base">ॐ नमः शिवाय</span>
-        © {new Date().getFullYear()} Dev Dham Anandashram — Sanatan Dharma Forever
+        © {new Date().getFullYear()} Dev Dham Anandashram Sanatan Dharma Forever
       </div>
     </footer>
   );

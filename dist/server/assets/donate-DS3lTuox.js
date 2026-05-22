@@ -54,14 +54,14 @@ function Donate() {
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-4xl px-6 py-24 text-center", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "deva text-2xl text-[var(--vermilion)]", children: "॥ दानं परं धर्मः ॥" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "mt-4 font-display text-5xl text-[var(--vermilion)] md:text-6xl", children: "Donate & Become a Member" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-6 text-xl italic leading-relaxed", children: "Walk hand in hand with Rastriya Sanatan Sayang Sevak Sangha — your donation sustains the eternal flame of Sanatan Dharma." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-6 text-xl italic leading-relaxed", children: "Walk hand in hand with Rastriya Sanatan Sayang Sevak Sangha your donation sustains the eternal flame of Sanatan Dharma." })
       ] })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pattern-strip", "aria-hidden": true }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "mx-auto max-w-7xl px-6 py-20", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "om-divider mb-6", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "deva text-2xl", children: "॥ सदस्यता ॥" }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-center font-display text-4xl text-[var(--vermilion)]", children: "Membership Categories" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mx-auto mt-3 max-w-3xl text-center text-lg italic text-[var(--muted-foreground)]", children: "Five paths of devotion — choose the one that calls to your heart." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mx-auto mt-3 max-w-3xl text-center text-lg italic text-[var(--muted-foreground)]", children: "Five paths of devotion choose the one that calls to your heart." }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-12 grid gap-6 md:grid-cols-2 md:[grid-auto-rows:1fr] lg:grid-cols-3", children: TIERS.map((t) => /* @__PURE__ */ jsxRuntimeExports.jsxs("article", { className: `ink-card relative flex h-full flex-col rounded-sm p-7 ${t.accent ? "ring-2 ring-[var(--vermilion)]" : ""}`, children: [
         t.accent && /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute -top-3 left-1/2 -translate-x-1/2 rounded-sm bg-[var(--vermilion)] px-3 py-1 text-[0.65rem] uppercase tracking-[0.25em] text-[var(--parchment)]", children: "Most Generous" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display text-2xl text-[var(--vermilion)]", children: t.name }),
@@ -83,7 +83,7 @@ function Donate() {
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-[oklch(0.91_0.05_80_/_0.5)] py-20", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-3xl px-6", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "om-divider mb-6", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "deva text-2xl", children: "॥ संकल्प ॥" }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-center font-display text-4xl text-[var(--vermilion)]", children: "Take the Sankalpa" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-3 text-center italic text-[var(--muted-foreground)]", children: "Submit your details — our keepers shall reach out with the next steps for payment and registration." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-3 text-center italic text-[var(--muted-foreground)]", children: "Submit your details our keepers shall reach out with the next steps for payment and registration." }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("form", { onSubmit: (e) => {
         e.preventDefault();
         setSubmitted(true);

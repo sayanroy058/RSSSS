@@ -1762,8 +1762,8 @@ var RouterCore = class {
   }
   /**
   * Lightweight route matching for buildLocation.
-  * Only computes fullPath, accumulated search, and params - skipping expensive
-  * operations like AbortController, ControlledPromise, loaderDeps, and full match objects.
+  * Only computes fullPath, accumulated search and params - skipping expensive
+  * operations like AbortController, ControlledPromise, loaderDeps and full match objects.
   */
   matchRoutesLightweight(location) {
     const { matchedRoutes, routeParams } = this.getMatchedRoutes(location.pathname);
@@ -2804,7 +2804,7 @@ var TimeoutManager = class {
   // would need to support the default provider's concrete timer ID, which is
   // infeasible across environments.
   //
-  // We settle for type safety for the TimeoutProvider type, and accept that
+  // We settle for type safety for the TimeoutProvider type and accept that
   // this class is unsafe internally to allow for extension.
   #provider = defaultTimeoutProvider;
   #providerCalled = false;
@@ -4710,13 +4710,13 @@ const Route$4 = createRootRouteWithContext()({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Dev Dham Anandashram — Sanatan Dharma Sanctuary" },
-      { name: "description", content: "A vintage Sanatan ashram of Maa Dakshina Kali & Maa Bagalamukhi — devotion, donation, meditation and the eternal way of life at Gazol Doba, Jalpaiguri." },
-      { property: "og:title", content: "Dev Dham Anandashram — Sanatan Dharma Sanctuary" },
-      { property: "og:description", content: "A vintage Sanatan ashram of Maa Dakshina Kali & Maa Bagalamukhi — devotion, donation, meditation and the eternal way of life at Gazol Doba, Jalpaiguri." },
+      { title: "Dev Dham Anandashram Sanatan Dharma Sanctuary" },
+      { name: "description", content: "A vintage Sanatan ashram of Maa Dakshina Kali & Maa Bagalamukhi devotion, donation, meditation and the eternal way of life at Gazol Doba, Jalpaiguri." },
+      { property: "og:title", content: "Dev Dham Anandashram Sanatan Dharma Sanctuary" },
+      { property: "og:description", content: "A vintage Sanatan ashram of Maa Dakshina Kali & Maa Bagalamukhi devotion, donation, meditation and the eternal way of life at Gazol Doba, Jalpaiguri." },
       { property: "og:type", content: "website" },
-      { name: "twitter:title", content: "Dev Dham Anandashram — Sanatan Dharma Sanctuary" },
-      { name: "twitter:description", content: "A vintage Sanatan ashram of Maa Dakshina Kali & Maa Bagalamukhi — devotion, donation, meditation and the eternal way of life at Gazol Doba, Jalpaiguri." },
+      { name: "twitter:title", content: "Dev Dham Anandashram Sanatan Dharma Sanctuary" },
+      { name: "twitter:description", content: "A vintage Sanatan ashram of Maa Dakshina Kali & Maa Bagalamukhi devotion, donation, meditation and the eternal way of life at Gazol Doba, Jalpaiguri." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b59f0986-e62e-4ab8-98ee-3649f078a8b6/id-preview-7daf3178--6fc44c05-6d4a-4f67-aa0d-281fee1e9594.lovable.app-1779282039615.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b59f0986-e62e-4ab8-98ee-3649f078a8b6/id-preview-7daf3178--6fc44c05-6d4a-4f67-aa0d-281fee1e9594.lovable.app-1779282039615.png" },
       { name: "twitter:card", content: "summary_large_image" }
@@ -4750,10 +4750,10 @@ const $$splitComponentImporter$3 = () => import("./services-DqH6CQEw.js");
 const Route$3 = createFileRoute("/services")({
   head: () => ({
     meta: [{
-      title: "Services — Dev Dham Anandashram"
+      title: "Services Dev Dham Anandashram"
     }, {
       name: "description",
-      content: "Nineteen core services at Dev Dham Anandashram, including temple worship, healthcare, housing, training, and community welfare."
+      content: "Nineteen core services at Dev Dham Anandashram, including temple worship, healthcare, housing, training and community welfare."
     }]
   }),
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
@@ -4762,10 +4762,10 @@ const $$splitComponentImporter$2 = () => import("./donate-DS3lTuox.js");
 const Route$2 = createFileRoute("/donate")({
   head: () => ({
     meta: [{
-      title: "Donate & Become a Member — Dev Dham Anandashram"
+      title: "Donate & Become a Member Dev Dham Anandashram"
     }, {
       name: "description",
-      content: "Become a Patron, Life, Executive, Ordinary or Special Donor Member of Rastriya Sanatan Sayang Sevak Sangha, and support Sanatan Dharma."
+      content: "Become a Patron, Life, Executive, Ordinary or Special Donor Member of Rastriya Sanatan Sayang Sevak Sangha and support Sanatan Dharma."
     }]
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
@@ -4774,10 +4774,10 @@ const $$splitComponentImporter$1 = () => import("./about-BOZxsF2B.js");
 const Route$1 = createFileRoute("/about")({
   head: () => ({
     meta: [{
-      title: "About Us — Dev Dham Anandashram"
+      title: "About Us Dev Dham Anandashram"
     }, {
       name: "description",
-      content: "Our community is built on Sanatan Dharma, soul, donation and the eternal cycle of life — guided by Rastriya Sanatan Sayang Sevak Sangha."
+      content: "Our community is built on Sanatan Dharma, soul, donation and the eternal cycle of life guided by Rastriya Sanatan Sayang Sevak Sangha."
     }]
   }),
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
@@ -4786,7 +4786,7 @@ const $$splitComponentImporter = () => import("./index-CZBE3sQi.js");
 const Route2 = createFileRoute("/")({
   head: () => ({
     meta: [{
-      title: "Dev Dham Anandashram — Home"
+      title: "Dev Dham Anandashram Home"
     }, {
       name: "description",
       content: "A vintage Sanatan ashram nestled in the foothills, devoted to Maa Dakshina Kali and Maa Bagalamukhi."

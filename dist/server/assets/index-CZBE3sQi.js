@@ -37,9 +37,9 @@ function Home() {
           /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "mt-6 text-lg leading-relaxed text-[var(--ink)]", children: [
             "A spiritual retreat grounded in the principles of Sanatan Dharma, proposed by",
             /* @__PURE__ */ jsxRuntimeExports.jsx("em", { children: " Rastriya Sanatan Sayang Sevak Sangha " }),
-            " to demonstrate the principle of the eternal way of life. Far from worldly distractions, the Ashram nurtures meditation, yoga, chanting and scriptural study under the watch of revered Gurus — a harmonious family of seekers walking toward Moksha."
+            " to demonstrate the principle of the eternal way of life. Far from worldly distractions, the Ashram nurtures meditation, yoga, chanting and scriptural study under the watch of revered Gurus a harmonious family of seekers walking toward Moksha."
           ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-lg leading-relaxed text-[var(--ink)]", children: "500+ air-conditioned rooms for devotees, a 25-bed clinic, modern ambulance services, a 10,000 sft. main Dakshina Kali Temple flanked by five sister temples — all wrapped in the womb of nature." }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-lg leading-relaxed text-[var(--ink)]", children: "500+ air-conditioned rooms for devotees, a 25-bed clinic, modern ambulance services, a 10,000 sft. main Dakshina Kali Temple flanked by five sister temples all wrapped in the womb of nature." }),
           /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/about", className: "mt-6 inline-block text-sm font-semibold uppercase tracking-[0.25em] text-[var(--vermilion)] underline-offset-4 hover:underline", children: "Read our Story →" })
         ] })
       ] })
@@ -49,8 +49,8 @@ function Home() {
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "om-divider mb-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "deva text-xl", children: "॥ उद्देश्य ॥" }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-4xl text-[var(--vermilion)]", children: "Object" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-6 text-base leading-relaxed", children: "The Ashram stands as a living center of Sanatan Dharma, dedicated to preserving and promoting its timeless principles through the Main Temple of Maa Dakshina Kali and five other temples." }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-base leading-relaxed", children: "It provides a complete environment for meditation, yoga, scriptural study and devotional rituals, while serving community welfare through healthcare, training, sustainable livelihood, and cultural education." }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-base leading-relaxed", children: "Through these spiritual, social, and educational initiatives, the Ashram strengthens devotion and moral values, making Sanatan Dharma practical and relevant in modern life." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-base leading-relaxed", children: "It provides a complete environment for meditation, yoga, scriptural study and devotional rituals, while serving community welfare through healthcare, training, sustainable livelihood and cultural education." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-base leading-relaxed", children: "Through these spiritual, social and educational initiatives, the Ashram strengthens devotion and moral values, making Sanatan Dharma practical and relevant in modern life." })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "ink-card min-w-0 overflow-hidden rounded-sm p-6 lg:p-8", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-center font-display text-3xl text-[var(--vermilion)]", children: "All Nineteen Services" }),
@@ -64,7 +64,7 @@ function Home() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-12 grid gap-10 md:grid-cols-2", children: [{
         img: kali,
         name: "Maa Dakshina Kali",
-        text: "The fierce, compassionate Mother — destroyer of ego, bestower of liberation. Her sanctum is the heart of our 10,000 sft. main temple."
+        text: "The fierce, compassionate Mother destroyer of ego, bestower of liberation. Her sanctum is the heart of our 10,000 sft. main temple."
       }, {
         img: bagala,
         name: "Maa Bagalamukhi",
@@ -81,7 +81,7 @@ function Home() {
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-3xl px-6 text-center text-[var(--parchment)]", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "deva text-2xl text-[var(--gold)]", children: "॥ सर्वे भवन्तु सुखिनः ॥" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "mt-4 font-display text-4xl", children: "May All Beings Be Free" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-6 text-lg italic leading-relaxed", children: "From sunrise aarti to the lamp-lit Sandhya, every hour at Dev Dham is consecrated to donation, compassion, and service to fellow beings, to ancestors, and to the soil that holds us." }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-6 text-lg italic leading-relaxed", children: "From sunrise aarti to the lamp-lit Sandhya, every hour at Dev Dham is consecrated to donation, compassion and service to fellow beings, to ancestors and to the soil that holds us." }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/donate", className: "btn-vintage mt-8 inline-block rounded-sm px-7 py-3 text-sm", children: "Offer Your Donation" })
       ] })
     ] }),

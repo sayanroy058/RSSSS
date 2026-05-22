@@ -14,7 +14,7 @@ function About() {
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-4xl px-6 py-28 text-center", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "deva text-2xl text-[var(--vermilion)]", children: "॥ धर्मो रक्षति रक्षितः ॥" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "mt-4 font-display text-5xl text-[var(--vermilion)] md:text-6xl", children: "About the Ashram" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-6 text-xl italic leading-relaxed", children: "A spiritual family, an eternal vow — to preserve, practice and pass on Sanatan Dharma in modern life." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-6 text-xl italic leading-relaxed", children: "A spiritual family, an eternal vow to preserve, practice and pass on Sanatan Dharma in modern life." })
       ] })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pattern-strip", "aria-hidden": true }),
@@ -24,19 +24,19 @@ function About() {
       /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "mt-6 text-lg leading-relaxed", children: [
         "Dev Dham Anandashram is a spiritual retreat grounded in the principles of Sanatan Dharma, proposed by",
         /* @__PURE__ */ jsxRuntimeExports.jsx("em", { children: " Rastriya Sanatan Sayang Sevak Sangha " }),
-        " to demonstrate the principle of the eternal way of life. Drawing from the timeless ashrama system, the Ashram provides a setting away from worldly distractions for residents and visitors to focus on spiritual growth through meditation, yoga, chanting and scriptural study — the ultimate goal being moksha."
+        " to demonstrate the principle of the eternal way of life. Drawing from the timeless ashrama system, the Ashram provides a setting away from worldly distractions for residents and visitors to focus on spiritual growth through meditation, yoga, chanting and scriptural study the ultimate goal being moksha."
       ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-lg leading-relaxed", children: "A supportive community fosters a sense of spiritual family — seekers from diverse backgrounds living together, united by their spiritual purpose with nature. The Ashram extends its service to the larger community through educational programs, social and medical services, and religious guidance — reflecting the avatara concept of the Bhagavad Gita." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-lg leading-relaxed", children: "A supportive community fosters a sense of spiritual family seekers from diverse backgrounds living together, united by their spiritual purpose with nature. The Ashram extends its service to the larger community through educational programs, social and medical services and religious guidance reflecting the avatara concept of the Bhagavad Gita." }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "mt-4 text-lg leading-relaxed", children: [
-        "The complex hosts 500+ fully air-conditioned modern rooms for devotees, a 25-bed clinic with OPD, modern medical stores, advanced cardiac and non-cardiac ambulances, and dead-body carrier services at no cost. At its heart stands a 10,000 sft. fully air-conditioned main ",
+        "The complex hosts 500+ fully air-conditioned modern rooms for devotees, a 25-bed clinic with OPD, modern medical stores, advanced cardiac and non-cardiac ambulances and dead-body carrier services at no cost. At its heart stands a 10,000 sft. fully air-conditioned main ",
         /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Maa Dakshina Kali" }),
-        " temple, surrounded by five co-temples and a grand prayer & meditation hall — an ambience that beckons every soul toward moksha."
+        " temple, surrounded by five co-temples and a grand prayer & meditation hall an ambience that beckons every soul toward moksha."
       ] })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("section", { className: "bg-[oklch(0.91_0.05_80_/_0.5)] py-20", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-6xl px-6", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "om-divider mb-8", children: /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "deva text-2xl", children: "॥ समुदाय ॥" }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-center font-display text-4xl text-[var(--vermilion)]", children: "Community Built-Up" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mx-auto mt-4 max-w-3xl text-center text-lg leading-relaxed", children: "The Sangha believes that life is a sacred journey of the soul — eternal, continuous, guided by divine law. The Atman is immortal, passing through countless births in its quest for liberation. Our community-building is rooted in this eternal truth." }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mx-auto mt-4 max-w-3xl text-center text-lg leading-relaxed", children: "The Sangha believes that life is a sacred journey of the soul eternal, continuous, guided by divine law. The Atman is immortal, passing through countless births in its quest for liberation. Our community-building is rooted in this eternal truth." }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-12 grid gap-6 md:grid-cols-2", children: [{
         t: "Eternal Awareness",
         d: "Awareness of the soul's eternal nature and its divine purpose."
@@ -69,12 +69,12 @@ function About() {
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-lg leading-relaxed", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Ashram Location:" }),
-            " Gazol Doba, Jalpaiguri, West Bengal — near Bhorer Alo Dam Project and on the way to Bhamri Devi Temple."
+            " Gazol Doba, Jalpaiguri, West Bengal near Bhorer Alo Dam Project and on the way to Bhamri Devi Temple."
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "mt-4 space-y-2", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "🚉 Nearest Railway Station — NGP" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "✈️ Airport — Bagdogra" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "🚏 Nearest Bus Stop — NoukaHaat, Siliguri" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "🚉 Nearest Railway Station NGP" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "✈️ Airport Bagdogra" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "🚏 Nearest Bus Stop NoukaHaat, Siliguri" })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("a", { href: "https://www.google.com/maps/place/Dev+Dham+Anandashram/@26.7113061,88.5916827,17z", target: "_blank", rel: "noreferrer", className: "btn-vintage mt-6 inline-block rounded-sm px-6 py-2.5 text-xs", children: "Open in Google Maps" })
         ] }),

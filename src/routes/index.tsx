@@ -11,7 +11,7 @@ import servicesHexagons from "@/assets/Services-Hexagons.png";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dev Dham Anandashram — Home" },
+      { title: "Dev Dham Anandashram Home" },
       { name: "description", content: "A vintage Sanatan ashram nestled in the foothills, devoted to Maa Dakshina Kali and Maa Bagalamukhi." },
     ],
   }),
@@ -53,11 +53,11 @@ function Home() {
               A spiritual retreat grounded in the principles of Sanatan Dharma, proposed by
               <em> Rastriya Sanatan Sayang Sevak Sangha </em> to demonstrate the principle of the eternal way of life.
               Far from worldly distractions, the Ashram nurtures meditation, yoga, chanting and scriptural study under
-              the watch of revered Gurus — a harmonious family of seekers walking toward Moksha.
+              the watch of revered Gurus a harmonious family of seekers walking toward Moksha.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-[var(--ink)]">
               500+ air-conditioned rooms for devotees, a 25-bed clinic, modern ambulance services, a 10,000 sft.
-              main Dakshina Kali Temple flanked by five sister temples — all wrapped in the womb of nature.
+              main Dakshina Kali Temple flanked by five sister temples all wrapped in the womb of nature.
             </p>
             <Link to="/about" className="mt-6 inline-block text-sm font-semibold uppercase tracking-[0.25em] text-[var(--vermilion)] underline-offset-4 hover:underline">Read our Story →</Link>
           </div>
@@ -75,10 +75,10 @@ function Home() {
             </p>
             <p className="mt-4 text-base leading-relaxed">
               It provides a complete environment for meditation, yoga, scriptural study and devotional rituals, while
-              serving community welfare through healthcare, training, sustainable livelihood, and cultural education.
+              serving community welfare through healthcare, training, sustainable livelihood and cultural education.
             </p>
             <p className="mt-4 text-base leading-relaxed">
-              Through these spiritual, social, and educational initiatives, the Ashram strengthens devotion and moral
+              Through these spiritual, social and educational initiatives, the Ashram strengthens devotion and moral
               values, making Sanatan Dharma practical and relevant in modern life.
             </p>
           </div>
@@ -105,7 +105,7 @@ function Home() {
           </p>
           <div className="mt-12 grid gap-10 md:grid-cols-2">
             {[
-              { img: kali, name: "Maa Dakshina Kali", text: "The fierce, compassionate Mother — destroyer of ego, bestower of liberation. Her sanctum is the heart of our 10,000 sft. main temple." },
+              { img: kali, name: "Maa Dakshina Kali", text: "The fierce, compassionate Mother destroyer of ego, bestower of liberation. Her sanctum is the heart of our 10,000 sft. main temple." },
               { img: bagala, name: "Maa Bagalamukhi", text: "The golden goddess who stills the storms of speech and mind, granting devotees victory over inner adversaries." },
             ].map((d) => (
               <article key={d.name} className="ink-card rounded-sm p-6">
@@ -128,7 +128,7 @@ function Home() {
           <h2 className="mt-4 font-display text-4xl">May All Beings Be Free</h2>
           <p className="mt-6 text-lg italic leading-relaxed">
             From sunrise aarti to the lamp-lit Sandhya, every hour at Dev Dham is consecrated to donation, compassion,
-            and service to fellow beings, to ancestors, and to the soil that holds us.
+            and service to fellow beings, to ancestors and to the soil that holds us.
           </p>
           <Link to="/donate" className="btn-vintage mt-8 inline-block rounded-sm px-7 py-3 text-sm">Offer Your Donation</Link>
         </div>

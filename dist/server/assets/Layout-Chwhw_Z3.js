@@ -35,7 +35,7 @@ function Footer() {
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs uppercase tracking-[0.3em] text-[var(--muted-foreground)]", children: "Anandashram" })
           ] })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-sm leading-relaxed text-[var(--muted-foreground)]", children: "A sanctuary of Sanatan Dharma — devotion, donation and the eternal way of life, nurtured by Rastriya Sanatan Sayang Sevak Sangha." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-sm leading-relaxed text-[var(--muted-foreground)]", children: "A sanctuary of Sanatan Dharma devotion, donation and the eternal way of life, nurtured by Rastriya Sanatan Sayang Sevak Sangha." })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "mb-4 text-sm uppercase tracking-[0.25em] text-[var(--vermilion)]", children: "Wander" }),
@@ -64,7 +64,7 @@ function Footer() {
           /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
           "P.S. Bharer Alo, Dist. Jalpaiguri,",
           /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-          "West Bengal — 735133"
+          "West Bengal 735133"
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(
           "a",
@@ -83,7 +83,7 @@ function Footer() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "deva mr-3 text-base", children: "ॐ नमः शिवाय" }),
       "© ",
       (/* @__PURE__ */ new Date()).getFullYear(),
-      " Dev Dham Anandashram — Sanatan Dharma Forever"
+      " Dev Dham Anandashram Sanatan Dharma Forever"
     ] })
   ] });
 }
