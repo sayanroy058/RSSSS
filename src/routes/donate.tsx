@@ -230,7 +230,7 @@ function Donate() {
 
       {showDetailsModal && (
         <div className="fixed inset-0 z-50 grid place-items-center bg-black/55 px-4">
-          <div className="ink-card w-full max-w-xl rounded-sm p-7">
+          <div className="w-full max-w-xl rounded-sm border border-[var(--border)] bg-[var(--parchment)] p-7 shadow-[0_18px_40px_-20px_oklch(0.25_0.1_30_/_0.5)]">
             <div className="flex items-start justify-between gap-4">
               <div>
                 <p className="text-xs uppercase tracking-[0.2em] text-[var(--muted-foreground)]">Membership Form</p>
@@ -275,7 +275,7 @@ function Donate() {
 
       {showSuccessModal && (
         <div className="fixed inset-0 z-50 grid place-items-center bg-black/55 px-4">
-          <div className="ink-card w-full max-w-lg rounded-sm p-8 text-center">
+          <div className="w-full max-w-lg rounded-sm border border-[var(--border)] bg-[var(--parchment)] p-8 text-center shadow-[0_18px_40px_-20px_oklch(0.25_0.1_30_/_0.5)]">
             <p className="deva text-2xl text-[var(--vermilion)]">॥ धन्यवादः ॥</p>
             <h3 className="mt-3 font-display text-3xl text-[var(--vermilion)]">Payment Received</h3>
             <p className="mt-4 text-base leading-relaxed">

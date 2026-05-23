@@ -146,6 +146,27 @@
     0 2px 0 oklch(0.25 0.08 30 / 0.42);
 }
 
+@keyframes donateBlink {
+  0%, 100% {
+    opacity: 1;
+    filter: brightness(1);
+  }
+  50% {
+    opacity: 0.8;
+    filter: brightness(1.08);
+  }
+}
+
+.donate-blink {
+  animation: donateBlink 1.8s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .donate-blink {
+    animation: none;
+  }
+}
+
 /* Pattern border strip used on section dividers */
 .pattern-strip {
   height: 28px;

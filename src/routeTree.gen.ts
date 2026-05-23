@@ -11,10 +11,13 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as ServicesRouteImport } from './routes/services'
 import { Route as LoginRouteImport } from './routes/login'
+import { Route as GalleryRouteImport } from './routes/gallery'
 import { Route as DonateRouteImport } from './routes/donate'
 import { Route as AdminRouteImport } from './routes/admin'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AdminIndexRouteImport } from './routes/admin.index'
+import { Route as AdminDonationRouteImport } from './routes/admin.donation'
 
 const ServicesRoute = ServicesRouteImport.update({
   id: '/services',
@@ -24,6 +27,11 @@ const ServicesRoute = ServicesRouteImport.update({
 const LoginRoute = LoginRouteImport.update({
   id: '/login',
   path: '/login',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GalleryRoute = GalleryRouteImport.update({
+  id: '/gallery',
+  path: '/gallery',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DonateRoute = DonateRouteImport.update({
@@ -46,52 +54,91 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AdminIndexRoute = AdminIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => AdminRoute,
+} as any)
+const AdminDonationRoute = AdminDonationRouteImport.update({
+  id: '/donation',
+  path: '/donation',
+  getParentRoute: () => AdminRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
-  '/admin': typeof AdminRoute
+  '/admin': typeof AdminRouteWithChildren
   '/donate': typeof DonateRoute
+  '/gallery': typeof GalleryRoute
   '/login': typeof LoginRoute
   '/services': typeof ServicesRoute
+  '/admin/donation': typeof AdminDonationRoute
+  '/admin/': typeof AdminIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
-  '/admin': typeof AdminRoute
   '/donate': typeof DonateRoute
+  '/gallery': typeof GalleryRoute
   '/login': typeof LoginRoute
   '/services': typeof ServicesRoute
+  '/admin/donation': typeof AdminDonationRoute
+  '/admin': typeof AdminIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
-  '/admin': typeof AdminRoute
+  '/admin': typeof AdminRouteWithChildren
   '/donate': typeof DonateRoute
+  '/gallery': typeof GalleryRoute
   '/login': typeof LoginRoute
   '/services': typeof ServicesRoute
+  '/admin/donation': typeof AdminDonationRoute
+  '/admin/': typeof AdminIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/admin' | '/donate' | '/login' | '/services'
+  fullPaths:
+    | '/'
+    | '/about'
+    | '/admin'
+    | '/donate'
+    | '/gallery'
+    | '/login'
+    | '/services'
+    | '/admin/donation'
+    | '/admin/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/admin' | '/donate' | '/login' | '/services'
+  to:
+    | '/'
+    | '/about'
+    | '/donate'
+    | '/gallery'
+    | '/login'
+    | '/services'
+    | '/admin/donation'
+    | '/admin'
   id:
     | '__root__'
     | '/'
     | '/about'
     | '/admin'
     | '/donate'
+    | '/gallery'
     | '/login'
     | '/services'
+    | '/admin/donation'
+    | '/admin/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
-  AdminRoute: typeof AdminRoute
+  AdminRoute: typeof AdminRouteWithChildren
   DonateRoute: typeof DonateRoute
+  GalleryRoute: typeof GalleryRoute
   LoginRoute: typeof LoginRoute
   ServicesRoute: typeof ServicesRoute
 }
@@ -110,6 +157,13 @@ declare module '@tanstack/react-router' {
       path: '/login'
       fullPath: '/login'
       preLoaderRoute: typeof LoginRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gallery': {
+      id: '/gallery'
+      path: '/gallery'
+      fullPath: '/gallery'
+      preLoaderRoute: typeof GalleryRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/donate': {
@@ -140,14 +194,41 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/admin/': {
+      id: '/admin/'
+      path: '/'
+      fullPath: '/admin/'
+      preLoaderRoute: typeof AdminIndexRouteImport
+      parentRoute: typeof AdminRoute
+    }
+    '/admin/donation': {
+      id: '/admin/donation'
+      path: '/donation'
+      fullPath: '/admin/donation'
+      preLoaderRoute: typeof AdminDonationRouteImport
+      parentRoute: typeof AdminRoute
+    }
   }
 }
+
+interface AdminRouteChildren {
+  AdminDonationRoute: typeof AdminDonationRoute
+  AdminIndexRoute: typeof AdminIndexRoute
+}
+
+const AdminRouteChildren: AdminRouteChildren = {
+  AdminDonationRoute: AdminDonationRoute,
+  AdminIndexRoute: AdminIndexRoute,
+}
+
+const AdminRouteWithChildren = AdminRoute._addFileChildren(AdminRouteChildren)
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
-  AdminRoute: AdminRoute,
+  AdminRoute: AdminRouteWithChildren,
   DonateRoute: DonateRoute,
+  GalleryRoute: GalleryRoute,
   LoginRoute: LoginRoute,
   ServicesRoute: ServicesRoute,
 }

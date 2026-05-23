@@ -23,6 +23,7 @@ export function Footer() {
             <li><Link to="/" className="hover:text-[var(--vermilion)]">Home</Link></li>
             <li><Link to="/about" className="hover:text-[var(--vermilion)]">About the Ashram</Link></li>
             <li><Link to="/services" className="hover:text-[var(--vermilion)]">Our Nineteen Services</Link></li>
+            <li><Link to="/gallery" className="hover:text-[var(--vermilion)]">Gallery</Link></li>
             <li><Link to="/donate" className="hover:text-[var(--vermilion)]">Donate & Membership</Link></li>
           </ul>
         </div>

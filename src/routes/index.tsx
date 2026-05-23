@@ -22,7 +22,7 @@ function Home() {
   return (
     <Layout>
       <section className="relative isolate">
-        <img src={hero} alt="Rishi meditating on a hillside at sunrise with ancient temple" className="absolute inset-0 -z-10 h-full w-full object-cover opacity-90" />
+        <img src={hero} alt="Rishi meditating on a hillside at sunrise with ancient temple" className="absolute inset-0 -z-10 h-full w-full object-cover object-[center_10%] opacity-90" />
         <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[oklch(0.92_0.05_82)] via-[oklch(0.92_0.05_82_/_0.55)] to-[oklch(0.92_0.05_82_/_0.2)]" />
         <div className="mx-auto max-w-5xl px-6 pb-32 pt-28 text-center md:pt-40">
           <p className="deva text-3xl text-[var(--vermilion)]">॥ ॐ नमः शिवाय ॥</p>
@@ -85,7 +85,7 @@ function Home() {
 
           <div className="ink-card min-w-0 overflow-hidden rounded-sm p-6 lg:p-8">
             <h3 className="text-center font-display text-3xl text-[var(--vermilion)]">All Nineteen Services</h3>
-            <div className="mt-8 flex h-full items-center justify-center pb-4 lg:pb-6">
+            <div className="mt-2 flex h-full items-center justify-center pb-4 lg:pb-6">
               <img
                 src={servicesHexagons}
                 alt="All nineteen services shown in a sacred hexagon layout"
