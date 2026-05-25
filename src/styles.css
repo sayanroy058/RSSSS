@@ -77,6 +77,7 @@
     background-color: var(--color-background);
     color: var(--color-foreground);
     font-family: var(--font-serif);
+    text-align: justify;
   }
   body {
     background-image:

@@ -23,7 +23,7 @@ function About() {
       /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-4xl text-[var(--vermilion)]", children: "Introduction" }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "mt-6 text-lg leading-relaxed", children: [
         "Dev Dham Anandashram is a spiritual retreat grounded in the principles of Sanatan Dharma, proposed by",
-        /* @__PURE__ */ jsxRuntimeExports.jsx("em", { children: " Rastriya Sanatan Sayang Sevak Sangha " }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("em", { children: " Rastriya Sanatan Sayang Sebak Sangha " }),
         " to demonstrate the principle of the eternal way of life. Drawing from the timeless ashrama system, the Ashram provides a setting away from worldly distractions for residents and visitors to focus on spiritual growth through meditation, yoga, chanting and scriptural study the ultimate goal being moksha."
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-lg leading-relaxed", children: "A supportive community fosters a sense of spiritual family seekers from diverse backgrounds living together, united by their spiritual purpose with nature. The Ashram extends its service to the larger community through educational programs, social and medical services and religious guidance reflecting the avatara concept of the Bhagavad Gita." }),

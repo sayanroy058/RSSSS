@@ -14,7 +14,7 @@ export function Footer() {
             </div>
           </div>
           <p className="mt-4 text-sm leading-relaxed text-[var(--muted-foreground)]">
-            A sanctuary of Sanatan Dharma devotion, donation and the eternal way of life, nurtured by Rastriya Sanatan Sayang Sevak Sangha.
+            A sanctuary of Sanatan Dharma devotion, donation and the eternal way of life, nurtured by Rastriya Sanatan Sayang Sebak Sangha.
           </p>
         </div>
         <div>

@@ -7,7 +7,7 @@ export const Route = createFileRoute("/donate")({
   head: () => ({
     meta: [
       { title: "Donate & Become a Member - Dev Dham Anandashram" },
-      { name: "description", content: "Become a Patron, Life, Executive, Ordinary or Special Donor Member of Rastriya Sanatan Sayang Sevak Sangha and support Sanatan Dharma." },
+      { name: "description", content: "Become a Patron, Life, Executive, Ordinary or Special Donor Member of Rastriya Sanatan Sayang Sebak Sangha and support Sanatan Dharma." },
     ],
   }),
   component: Donate,
@@ -166,7 +166,7 @@ function Donate() {
           <p className="deva text-2xl text-[var(--vermilion)]">॥ दानं परं धर्मः ॥</p>
           <h1 className="mt-4 font-display text-5xl text-[var(--vermilion)] md:text-6xl">Donate & Become a Member</h1>
           <p className="mt-6 text-xl italic leading-relaxed">
-            Walk hand in hand with Rastriya Sanatan Sayang Sevak Sangha - your donation sustains the eternal flame of Sanatan Dharma.
+            Walk hand in hand with Rastriya Sanatan Sayang Sebak Sangha - your donation sustains the eternal flame of Sanatan Dharma.
           </p>
         </div>
       </section>

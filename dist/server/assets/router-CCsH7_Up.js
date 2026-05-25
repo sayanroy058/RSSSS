@@ -4765,7 +4765,7 @@ const Route$2 = createFileRoute("/donate")({
       title: "Donate & Become a Member Dev Dham Anandashram"
     }, {
       name: "description",
-      content: "Become a Patron, Life, Executive, Ordinary or Special Donor Member of Rastriya Sanatan Sayang Sevak Sangha and support Sanatan Dharma."
+      content: "Become a Patron, Life, Executive, Ordinary or Special Donor Member of Rastriya Sanatan Sayang Sebak Sangha and support Sanatan Dharma."
     }]
   }),
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
@@ -4777,7 +4777,7 @@ const Route$1 = createFileRoute("/about")({
       title: "About Us Dev Dham Anandashram"
     }, {
       name: "description",
-      content: "Our community is built on Sanatan Dharma, soul, donation and the eternal cycle of life guided by Rastriya Sanatan Sayang Sevak Sangha."
+      content: "Our community is built on Sanatan Dharma, soul, donation and the eternal cycle of life guided by Rastriya Sanatan Sayang Sebak Sangha."
     }]
   }),
   component: lazyRouteComponent($$splitComponentImporter$1, "component")

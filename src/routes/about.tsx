@@ -8,7 +8,7 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About Us Dev Dham Anandashram" },
-      { name: "description", content: "Our community is built on Sanatan Dharma, soul, donation and the eternal cycle of life guided by Rastriya Sanatan Sayang Sevak Sangha." },
+      { name: "description", content: "Our community is built on Sanatan Dharma, soul, donation and the eternal cycle of life guided by Rastriya Sanatan Sayang Sebak Sangha." },
     ],
   }),
   component: About,
@@ -36,7 +36,7 @@ function About() {
         <h2 className="font-display text-4xl text-[var(--vermilion)]">Introduction</h2>
         <p className="mt-6 text-lg leading-relaxed">
           Dev Dham Anandashram is a spiritual retreat grounded in the principles of Sanatan Dharma, proposed by
-          <em> Rastriya Sanatan Sayang Sevak Sangha </em> to demonstrate the principle of the eternal way of life.
+          <em> Rastriya Sanatan Sayang Sebak Sangha </em> to demonstrate the principle of the eternal way of life.
           Drawing from the timeless ashrama system, the Ashram provides a setting away from worldly distractions for
           residents and visitors to focus on spiritual growth through meditation, yoga, chanting and scriptural study
           the ultimate goal being moksha.
