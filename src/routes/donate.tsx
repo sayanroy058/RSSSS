@@ -105,15 +105,16 @@ function Donate() {
   const [membershipId, setMembershipId] = useState("");
   const [memberForm, setMemberForm] = useState({
     name: "",
+    gotro: "",
+    fathersName: "",
     phone: "",
     email: "",
     address: "",
-    gotro: "",
     paymentMethod: "UPI",
   });
 
   const resetMemberForm = () => {
-    setMemberForm({ name: "", phone: "", email: "", address: "", gotro: "", paymentMethod: "UPI" });
+    setMemberForm({ name: "", gotro: "", fathersName: "", phone: "", email: "", address: "", paymentMethod: "UPI" });
   };
 
   const handleChoosePlan = (tierName: string) => {
@@ -139,7 +140,12 @@ function Donate() {
     const amount = getAmountFromPlan(selectedTier);
 
     const payload = {
-      ...memberForm,
+      name: memberForm.name,
+      gotro: memberForm.gotro,
+      fathersName: memberForm.fathersName,
+      phone: memberForm.phone,
+      email: memberForm.email,
+      address: memberForm.address,
       plan: selectedTier,
       membershipId: newMembershipId,
       amount,
@@ -247,10 +253,11 @@ function Donate() {
 
             <form onSubmit={handleMemberSubmit} className="mt-6 space-y-4">
               <Field label="Name" value={memberForm.name} onChange={(v) => setMemberForm({ ...memberForm, name: v })} required />
+              <Field label="Gotro" value={memberForm.gotro} onChange={(v) => setMemberForm({ ...memberForm, gotro: v })} required />
+              <Field label="Father's Name" value={memberForm.fathersName} onChange={(v) => setMemberForm({ ...memberForm, fathersName: v })} required />
               <Field label="Phone No." value={memberForm.phone} onChange={(v) => setMemberForm({ ...memberForm, phone: v })} required />
               <Field label="Email" type="email" value={memberForm.email} onChange={(v) => setMemberForm({ ...memberForm, email: v })} required />
               <Field label="Address" value={memberForm.address} onChange={(v) => setMemberForm({ ...memberForm, address: v })} required />
-              <Field label="Gotro" value={memberForm.gotro} onChange={(v) => setMemberForm({ ...memberForm, gotro: v })} required />
 
               <label className="block">
                 <span className="mb-2 block text-xs uppercase tracking-[0.25em] text-[var(--muted-foreground)]">Payment Method</span>

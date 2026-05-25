@@ -32,6 +32,7 @@ export function Footer() {
           <ul className="space-y-2 text-base">
             <li>📞 +91 62899 65155</li>
             <li>📞 +91 90731 64234</li>
+            <li>✉️ official@rssss.in</li>
             <li>✉️ info@rssss.in</li>
             <li>🌐 www.rssss.in</li>
           </ul>
