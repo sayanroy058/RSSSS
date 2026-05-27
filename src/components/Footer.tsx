@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import logoSrc from "../assets/dev-dham-logo.png";
 
 export function Footer() {
   return (
@@ -6,12 +7,8 @@ export function Footer() {
       <div className="pattern-strip" aria-hidden />
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-4">
         <div>
-          <div className="flex items-center gap-3">
-            <span className="grid h-12 w-12 place-items-center rounded-full border-2 border-[var(--vermilion)] bg-[var(--parchment)] text-[var(--vermilion)] deva text-2xl">ॐ</span>
-            <div>
-              <p className="font-display text-lg tracking-widest text-[var(--vermilion)]">Dev Dham</p>
-              <p className="text-xs uppercase tracking-[0.3em] text-[var(--muted-foreground)]">Anandashram</p>
-            </div>
+          <div className="flex items-center">
+            <img src={logoSrc} alt="Dev Dham Anandashram" className="h-16 w-auto object-contain" />
           </div>
           <p className="mt-4 text-sm leading-relaxed text-[var(--muted-foreground)]">
             A sanctuary of Sanatan Dharma devotion, donation and the eternal way of life, nurtured by Rastriya Sanatan Sayang Sebak Sangha.
