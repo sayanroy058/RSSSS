@@ -10,6 +10,7 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as ServicesRouteImport } from './routes/services'
+import { Route as MemberRouteImport } from './routes/member'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as GalleryRouteImport } from './routes/gallery'
 import { Route as DonateRouteImport } from './routes/donate'
@@ -17,11 +18,18 @@ import { Route as AdminRouteImport } from './routes/admin'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AdminIndexRouteImport } from './routes/admin.index'
+import { Route as MemberProfileRouteImport } from './routes/member.profile'
+import { Route as MemberLoginRouteImport } from './routes/member.login'
 import { Route as AdminDonationRouteImport } from './routes/admin.donation'
 
 const ServicesRoute = ServicesRouteImport.update({
   id: '/services',
   path: '/services',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MemberRoute = MemberRouteImport.update({
+  id: '/member',
+  path: '/member',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LoginRoute = LoginRouteImport.update({
@@ -59,6 +67,16 @@ const AdminIndexRoute = AdminIndexRouteImport.update({
   path: '/',
   getParentRoute: () => AdminRoute,
 } as any)
+const MemberProfileRoute = MemberProfileRouteImport.update({
+  id: '/profile',
+  path: '/profile',
+  getParentRoute: () => MemberRoute,
+} as any)
+const MemberLoginRoute = MemberLoginRouteImport.update({
+  id: '/login',
+  path: '/login',
+  getParentRoute: () => MemberRoute,
+} as any)
 const AdminDonationRoute = AdminDonationRouteImport.update({
   id: '/donation',
   path: '/donation',
@@ -72,8 +90,11 @@ export interface FileRoutesByFullPath {
   '/donate': typeof DonateRoute
   '/gallery': typeof GalleryRoute
   '/login': typeof LoginRoute
+  '/member': typeof MemberRouteWithChildren
   '/services': typeof ServicesRoute
   '/admin/donation': typeof AdminDonationRoute
+  '/member/login': typeof MemberLoginRoute
+  '/member/profile': typeof MemberProfileRoute
   '/admin/': typeof AdminIndexRoute
 }
 export interface FileRoutesByTo {
@@ -82,8 +103,11 @@ export interface FileRoutesByTo {
   '/donate': typeof DonateRoute
   '/gallery': typeof GalleryRoute
   '/login': typeof LoginRoute
+  '/member': typeof MemberRouteWithChildren
   '/services': typeof ServicesRoute
   '/admin/donation': typeof AdminDonationRoute
+  '/member/login': typeof MemberLoginRoute
+  '/member/profile': typeof MemberProfileRoute
   '/admin': typeof AdminIndexRoute
 }
 export interface FileRoutesById {
@@ -94,8 +118,11 @@ export interface FileRoutesById {
   '/donate': typeof DonateRoute
   '/gallery': typeof GalleryRoute
   '/login': typeof LoginRoute
+  '/member': typeof MemberRouteWithChildren
   '/services': typeof ServicesRoute
   '/admin/donation': typeof AdminDonationRoute
+  '/member/login': typeof MemberLoginRoute
+  '/member/profile': typeof MemberProfileRoute
   '/admin/': typeof AdminIndexRoute
 }
 export interface FileRouteTypes {
@@ -107,8 +134,11 @@ export interface FileRouteTypes {
     | '/donate'
     | '/gallery'
     | '/login'
+    | '/member'
     | '/services'
     | '/admin/donation'
+    | '/member/login'
+    | '/member/profile'
     | '/admin/'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -117,8 +147,11 @@ export interface FileRouteTypes {
     | '/donate'
     | '/gallery'
     | '/login'
+    | '/member'
     | '/services'
     | '/admin/donation'
+    | '/member/login'
+    | '/member/profile'
     | '/admin'
   id:
     | '__root__'
@@ -128,8 +161,11 @@ export interface FileRouteTypes {
     | '/donate'
     | '/gallery'
     | '/login'
+    | '/member'
     | '/services'
     | '/admin/donation'
+    | '/member/login'
+    | '/member/profile'
     | '/admin/'
   fileRoutesById: FileRoutesById
 }
@@ -140,6 +176,7 @@ export interface RootRouteChildren {
   DonateRoute: typeof DonateRoute
   GalleryRoute: typeof GalleryRoute
   LoginRoute: typeof LoginRoute
+  MemberRoute: typeof MemberRouteWithChildren
   ServicesRoute: typeof ServicesRoute
 }
 
@@ -150,6 +187,13 @@ declare module '@tanstack/react-router' {
       path: '/services'
       fullPath: '/services'
       preLoaderRoute: typeof ServicesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/member': {
+      id: '/member'
+      path: '/member'
+      fullPath: '/member'
+      preLoaderRoute: typeof MemberRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/login': {
@@ -201,6 +245,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AdminIndexRouteImport
       parentRoute: typeof AdminRoute
     }
+    '/member/profile': {
+      id: '/member/profile'
+      path: '/profile'
+      fullPath: '/member/profile'
+      preLoaderRoute: typeof MemberProfileRouteImport
+      parentRoute: typeof MemberRoute
+    }
+    '/member/login': {
+      id: '/member/login'
+      path: '/login'
+      fullPath: '/member/login'
+      preLoaderRoute: typeof MemberLoginRouteImport
+      parentRoute: typeof MemberRoute
+    }
     '/admin/donation': {
       id: '/admin/donation'
       path: '/donation'
@@ -223,6 +281,19 @@ const AdminRouteChildren: AdminRouteChildren = {
 
 const AdminRouteWithChildren = AdminRoute._addFileChildren(AdminRouteChildren)
 
+interface MemberRouteChildren {
+  MemberLoginRoute: typeof MemberLoginRoute
+  MemberProfileRoute: typeof MemberProfileRoute
+}
+
+const MemberRouteChildren: MemberRouteChildren = {
+  MemberLoginRoute: MemberLoginRoute,
+  MemberProfileRoute: MemberProfileRoute,
+}
+
+const MemberRouteWithChildren =
+  MemberRoute._addFileChildren(MemberRouteChildren)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
@@ -230,6 +301,7 @@ const rootRouteChildren: RootRouteChildren = {
   DonateRoute: DonateRoute,
   GalleryRoute: GalleryRoute,
   LoginRoute: LoginRoute,
+  MemberRoute: MemberRouteWithChildren,
   ServicesRoute: ServicesRoute,
 }
 export const routeTree = rootRouteImport

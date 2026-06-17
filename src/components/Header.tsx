@@ -19,6 +19,7 @@ export function Header() {
           <Link to="/services" className={link} activeProps={{ className: link + " text-[var(--vermilion)]" }}>Services</Link>
           <Link to="/gallery" className={link} activeProps={{ className: link + " text-[var(--vermilion)]" }}>Gallery</Link>
           <Link to="/donate" className={link} activeProps={{ className: link + " text-[var(--vermilion)]" }}>Donate & Membership</Link>
+          <Link to="/member/login" className={link} activeProps={{ className: link + " text-[var(--vermilion)]" }}>Member Login</Link>
         </nav>
         <div className="flex items-center gap-3">
           <Link to="/donate" className="btn-vintage hidden rounded-sm px-5 py-2.5 text-xs md:inline-block">Donate Now</Link>
@@ -43,6 +44,7 @@ export function Header() {
           <Link to="/services" className={mobileLink} onClick={() => setOpen(false)}>Services</Link>
           <Link to="/gallery" className={mobileLink} onClick={() => setOpen(false)}>Gallery</Link>
           <Link to="/donate" className={mobileLink} onClick={() => setOpen(false)}>Donate & Membership</Link>
+          <Link to="/member/login" className={mobileLink} onClick={() => setOpen(false)}>Member Login</Link>
           <div className="p-4">
             <Link to="/donate" className="btn-vintage block w-full text-center rounded-sm px-5 py-2.5 text-xs" onClick={() => setOpen(false)}>Donate Now</Link>
           </div>
