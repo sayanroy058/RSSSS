@@ -50,7 +50,7 @@ function Footer() {
         /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "mb-4 text-sm uppercase tracking-[0.25em] text-[var(--vermilion)]", children: "Connect" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "space-y-2 text-base", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "📞 +91 62899 65155" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "📞 +91 90731 64234" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "📞 +91 89024 24448" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "✉️ info@rssss.in" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: "🌐 www.rssss.in" })
         ] })
