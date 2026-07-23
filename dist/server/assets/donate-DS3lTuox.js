@@ -54,7 +54,7 @@ function Donate() {
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mx-auto max-w-4xl px-6 py-24 text-center", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "deva text-2xl text-[var(--vermilion)]", children: "॥ दानं परं धर्मः ॥" }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "mt-4 font-display text-5xl text-[var(--vermilion)] md:text-6xl", children: "Donate & Become a Member" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-6 text-xl italic leading-relaxed", children: "Walk hand in hand with Rastriya Sanatan Sayang Sebak Sangha your donation sustains the eternal flame of Sanatan Dharma." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-6 text-xl italic leading-relaxed", children: "Walk hand in hand with Rashtriya Sanatan Sayang Sebak Sangha your donation sustains the eternal flame of Sanatan Dharma." })
       ] })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pattern-strip", "aria-hidden": true }),
@@ -145,7 +145,7 @@ function Donate() {
           }), rows: 4, className: "w-full rounded-sm border border-[var(--border)] bg-[var(--parchment)] px-3 py-2.5 font-serif text-base text-[var(--ink)] focus:border-[var(--vermilion)] focus:outline-none" })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("button", { type: "submit", className: "btn-vintage w-full rounded-sm py-3 text-sm", children: "Offer my Donation" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center text-xs text-[var(--muted-foreground)]", children: "By submitting, you affirm devotion to the objects of Rastriya Sanatan Sayang Sebak Sangha." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center text-xs text-[var(--muted-foreground)]", children: "By submitting, you affirm devotion to the objects of Rashtriya Sanatan Sayang Sebak Sangha." })
       ] }) })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("section", { className: "mx-auto max-w-4xl px-6 py-20", children: [

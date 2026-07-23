@@ -117,7 +117,7 @@ const SERVICES = [
 ];
 
 const FAQS = [
-  { q: "Who manages Dev Dham Anandashram?", a: "The Ashram is proposed and managed by Rastriya Sanatan Sayang Sebak Sangha, a community devoted to preserving and promoting Sanatan Dharma." },
+  { q: "Who manages Dev Dham Anandashram?", a: "The Ashram is proposed and managed by Rashtriya Sanatan Sayang Sebak Sangha, a community devoted to preserving and promoting Sanatan Dharma." },
   { q: "Which deities are worshipped at the main temple?", a: "The main temple is dedicated to Maa Dakshina Kali, with five co-temples for Lord Shiva, Lord Vishnu (Balaji), Lord Bajrangbali, Lord Ganesha and Maa Lakshmi." },
   { q: "Can devotees stay overnight at the Ashram?", a: "Yes. Accommodation includes modern air-conditioned rooms in different occupancy categories, based on eligibility and availability." },
   { q: "What medical facilities are offered?", a: "The Ashram provides a 24x7 medical clinic with emergency support, day-care OPD, medicine store, ambulance and dead body carrier services." },

@@ -103,7 +103,7 @@ function MemberProfilePage() {
       ctx.fillStyle = "#f5e6c8";
       ctx.font = "bold 20px serif";
       ctx.textAlign = "center";
-      ctx.fillText("Rastriya Sanatan Sayang Sebak Sangha", 490, 36);
+      ctx.fillText("Rashtriya Sanatan Sayang Sebak Sangha", 490, 36);
       ctx.font = "14px serif";
       ctx.fillText("Dev Dham Anandashram  •  Gazol Doba, Jalpaiguri, West Bengal", 490, 62);
       ctx.font = "italic 12px serif";

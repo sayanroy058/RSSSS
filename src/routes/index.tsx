@@ -51,7 +51,7 @@ function Home() {
             <h2 className="font-display text-4xl text-[var(--vermilion)]">The Eternal Way of Life</h2>
             <p className="mt-6 text-lg leading-relaxed text-[var(--ink)]">
               A spiritual retreat grounded in the principles of Sanatan Dharma, proposed by
-              <em> Rastriya Sanatan Sayang Sebak Sangha </em> to demonstrate the principle of the eternal way of life.
+              <em> Rashtriya Sanatan Sayang Sebak Sangha </em> to demonstrate the principle of the eternal way of life.
               Far from worldly distractions, the Ashram nurtures meditation, yoga, chanting and scriptural study under
               the watch of revered Gurus a harmonious family of seekers walking toward Moksha.
             </p>

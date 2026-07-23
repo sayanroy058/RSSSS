@@ -36,7 +36,7 @@ function Home() {
           /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-4xl text-[var(--vermilion)]", children: "The Eternal Way of Life" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "mt-6 text-lg leading-relaxed text-[var(--ink)]", children: [
             "A spiritual retreat grounded in the principles of Sanatan Dharma, proposed by",
-            /* @__PURE__ */ jsxRuntimeExports.jsx("em", { children: " Rastriya Sanatan Sayang Sebak Sangha " }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("em", { children: " Rashtriya Sanatan Sayang Sebak Sangha " }),
             " to demonstrate the principle of the eternal way of life. Far from worldly distractions, the Ashram nurtures meditation, yoga, chanting and scriptural study under the watch of revered Gurus a harmonious family of seekers walking toward Moksha."
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "mt-4 text-lg leading-relaxed text-[var(--ink)]", children: "500+ air-conditioned rooms for devotees, a 25-bed clinic, modern ambulance services, a 10,000 sft. main Dakshina Kali Temple flanked by five sister temples all wrapped in the womb of nature." }),
